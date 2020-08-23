@@ -1085,3 +1085,20 @@ icon {
   color: #000000;
   font-size: 14px;
 }
+
+.copyright {
+  padding: 10px 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-top: .77em;
+  margin-bottom: .3em;
+  padding-left: 35% ;
+  color: #9B9B9B;
+  font-size: 14px;
+  width: 50% ;
+}

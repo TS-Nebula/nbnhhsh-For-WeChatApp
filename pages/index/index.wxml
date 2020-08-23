@@ -1,17 +1,24 @@
 <view class="weui-cells__title">请输入需要翻译的词语</view>
 <view class="weui-cells weui-cells_after-title">
 <view class="weui-cell weui-cell_input">
-<input confirm-type="search" class="weui-input" auto-focus placeholder="请输入需要翻译的词语"></input>
+<input bindinput='watchPassWord' class="weui-input" placeholder='请输入需要翻译的词语'></input>
+
 </view></view>
 
-<button class="fy">翻译</button>
+<button bindtap="btnclick" class="fy">翻译</button>
 <view class="br"></view>
 <view class="weui-cells weui-cells_after-title">
 <text class="result">{{result}}</text>
 </view>
 
 <view class="br"></view>
-<view class="weui-cells__title">为什么开发他？</view>
+
+<view class="weui-cells__title">为什么做这东西？</view>
+<view class="weui-cells weui-cells_after-title">
+<text class="introduce">社交平台上通过拼音首字母缩写指代特定词句的情况越来越多，为了让更多人能勉强理解这一门另类沟通方式、做了这一个划词转义工具。</text>
+</view>
+<view class="br"></view>
+<view class="weui-cells__title">例文</view>
 <view class="weui-cells weui-cells_after-title">
 <text class="introduce">草这个tmd网络世界我真的太恨缩写了,
 
@@ -23,5 +30,9 @@
 
 最要命的还不是这些，我刚刚看到网友评价什么什么他jb的什么，我以为jb就是jb的意思吧，但联系上下文句子又读不通，想了一分钟，哇，原来jb是姜滨的缩写啊！
 
-jb＝姜滨，我离开了。</text>
+jb＝姜滨，我裂开了。</text>
 </view>
+
+<view class="br"></view>
+
+<text class="copyright">© 2020 TS-Nebula</text>
