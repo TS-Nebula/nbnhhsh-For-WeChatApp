@@ -12,7 +12,10 @@ Page({
  },
 
   btnclick : function(event){
-    let a = this.data.sercsData
+    this.setData({
+      result:"加载中..."
+    })
+    let input = this.data.sercsData
     let _this = this
     wx.request({
       url: 'https://lab.magiconch.com/api/nbnhhsh/guess',
@@ -21,20 +24,28 @@ Page({
         'content-type': 'application/x-www-form-urlencoded'
       },
       data: {
-        text: a
+        text: input
       },
       success(res) {
-        console.log(res.data[0].trans[0])
-        let trans = res.data[0].trans
-        let words = ''
-        for (let i in trans){
-          console.log(i)
-          words += trans[i]+ " "
+        try{
+          console.log(res.data[0].trans[0])
+          let trans = res.data[0].trans
+          let words = ''
+          for (let i in trans){
+            console.log(i)
+            words += trans[i]+ " "
+          }
+          _this.setData({
+            result: words
+          })
+        }catch (e) {
+          _this.setData({
+              result:"暂无数据"
+          })
         }
-        _this.setData({
-          result: words
-        })
-      }
+
+        }
+      
   })
   }
 })
