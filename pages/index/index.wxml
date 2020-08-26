@@ -32,7 +32,19 @@
 
 jb＝姜滨，我裂开了。</text>
 </view>
+<view class="br"></view>
+<view class="weui-cells__title">项目地址</view>
+<view class="weui-cells weui-cells_after-title">
+<text class="introduce">本程序为开源项目「能不能好好说话？」 微信小程序版本
+
+项目地址：https://github.com/TS-Nebula/nbnhhsh-For-WeChatApp
+
+原项目地址：https://github.com/itorr/nbnhhsh
+</text>
+</view>
 
 <view class="br"></view>
 
-<text class="copyright">© 2020 TS-Nebula</text>
+<text class="copyright">Github | © 2020 TS-Nebula</text>
+
+

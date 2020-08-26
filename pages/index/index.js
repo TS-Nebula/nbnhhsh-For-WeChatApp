@@ -14,7 +14,7 @@ Page({
   btnclick : function(event){
     this.setData({
       result:"加载中..."
-    })
+    })  
     let input = this.data.sercsData
     let _this = this
     wx.request({
