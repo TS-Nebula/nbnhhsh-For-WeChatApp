@@ -18,7 +18,7 @@ Page({
     let input = this.data.sercsData
     let _this = this
     wx.request({
-      url: 'https://lab.magiconch.com/api/nbnhhsh/guess',
+      url: 'https://nbnhhsh.fa-dream.top/api/nbnhhsh/guess',
       method: 'POST',
       header: {
         'content-type': 'application/x-www-form-urlencoded'
