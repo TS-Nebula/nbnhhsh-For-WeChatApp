@@ -1,11 +1,16 @@
 <view class="weui-cells__title">请输入需要翻译的词语</view>
-<view class="weui-cells weui-cells_after-title">
-<view class="weui-cell weui-cell_input">
-<input bindinput='watchPassWord' class="weui-input" placeholder='请输入需要翻译的词语'></input>
 
-</view></view>
+<view class="cu-bar margin-top bg-white">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>
+    <input bindinput='watchPassWord'  placeholder='请输入需要翻译的词语'></input>
+  </view>
+</view>
+<view class="padding-xl">
+  <button bindtap='btnclick' class="cu-btn block bg-blue margin-tb-sm lg">
+    <text class="iconfont-spin"></text>查询</button>
+</view>
 
-<button bindtap="btnclick" class="fy">翻译</button>
 <view class="br"></view>
 <view class="weui-cells weui-cells_after-title">
 <text class="result">{{result}}</text>
@@ -13,32 +18,33 @@
 
 <view class="br"></view>
 
-<view class="weui-cells__title">为什么做这东西？</view>
-<view class="weui-cells weui-cells_after-title">
-<text class="introduce">社交平台上通过拼音首字母缩写指代特定词句的情况越来越多，为了让更多人能勉强理解这一门另类沟通方式、做了这一个划词转义工具。</text>
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>为什么做这东西？</view>
+  <view class='text-content'>
+
+    <view class='margin-top-sm'>社交平台上通过拼音首字母缩写指代特定词句的情况越来越多，为了让更多人能勉强理解这一门另类沟通方式、做了这一个划词转义工具。</view>
+  </view>
 </view>
-<view class="br"></view>
-<view class="weui-cells__title">例文</view>
-<view class="weui-cells weui-cells_after-title">
-<text class="introduce">这个网络世界我真的太恨缩写了,
 
-随便点开一条微博，艺人名字要缩写，gzs工作室也要缩写，gc广场也是缩写，hgr我猜了老半天，百度一下才知道是韩国人，拳头硬了。
 
-讲个话开头也缩写，srds虽然但是，yjgj有句港句，bbl求求了。（这个谁看得出来啊）
 
-夸人骂人也都缩写，yjjc一骑绝尘，wdcc弯道超车，yygq阴阳怪气，myss美颜盛世。
-</text>
+
+
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>项目地址</view>
+  <view class='text-content'>
+
+    <view class='margin-top-sm'>本程序为开源项目「能不能好好说话？」 微信小程序版本
+
+      <view class='margin-top-sm'>项目地址：https://github.com/TS-Nebula/nbnhhsh-For-WeChatApp</view>
+
+      <view class='margin-top-sm'>原项目地址：https://github.com/itorr/nbnhhsh
+</view></view>
+  </view>
 </view>
-<view class="br"></view>
-<view class="weui-cells__title">项目地址</view>
-<view class="weui-cells weui-cells_after-title">
-<text class="introduce">本程序为开源项目「能不能好好说话？」 微信小程序版本
 
-项目地址：https://github.com/TS-Nebula/nbnhhsh-For-WeChatApp
 
-原项目地址：https://github.com/itorr/nbnhhsh
-</text>
-</view>
+
 
 <view class="br"></view>
 

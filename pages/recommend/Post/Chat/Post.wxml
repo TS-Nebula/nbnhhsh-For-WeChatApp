@@ -1,0 +1,44 @@
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>网络聊天常见缩写词</view>
+  <view class='text-content'>
+    <text class='margin-top-sm'>
+      btw(by the way)：这个大多数人都会用，就是“顺便再说一句”的意思。
+
+      g2g(got to go)：要走了。原句是I've got to go。
+
+      ttyl(talk to you later)：下次再说。
+
+      brb(be right back)：很快回来。也就是I'll be right back 或I'm gonna be right back的简写。
+
+      jk(just kidding)：开玩笑，别当真。
+
+      omg(oh my god)：我的天啊！有时为了表达更强烈的情感，有人会打：OMGGGGGGG! lol(laugh out loud)：大声地笑。这个缩写已经快被用烂了。
+
+      Imao(laughing my arse/ass off)：笑死我了。遇到真正搞笑的事，可以这么说，不过有点粗俗。
+
+      rofl(rolling on the floor laughing)：笑到摔到地上。
+
+      roflmao(rolling on the floor laughing my ass of)：前两个的结合版，也就是超级搞笑的意思。
+
+      sth(something)：某事某物。
+
+      nth(nothing)：什么也没有。
+
+      plz(please)：请。please 字尾是z 音，所以按照读音缩写为plz。
+
+      thx(thanks)：谢谢。按照发音来看，thanks字尾的ks可以用字母X代替。
+
+      idk(I don't know)：我不知道。
+
+      imho, imo(in my humble opinion, in my opinion)：在我看来，常见于论坛。
+
+      ASAP：As soon as possible尽快
+
+      BF：Boyfriend男朋友
+
+      BTW：By the way随便说一下
+
+      BBL：Be back later稍后回来
+    </text>
+  </view>
+</view>

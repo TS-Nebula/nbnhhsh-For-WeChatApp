@@ -1,13 +1,9 @@
-<text class="title">推荐</text>
-<view class="weui-cells weui-cells_after-title">
-<text class="introduce">为您推荐最适合您的文章来帮您快速了解常用的缩写词。
-</text>
-</view>
-<view class="br">
-<button class="card"><text class="card_content">饭圈常用关键词</text> </button>
-</view>
 
-
-<view class="br"></view>
-
-<text class="copyright">Github | © 2020 TS-Nebula</text>
+  <view class="cu-card">
+    <view class="cu-item bg-img shadow-blur" style="background-image:url({{item.img}})" bindtap="toChild" data-url="{{item.url}}" wx:for="{{list}}" wx:key>
+      <view class="cardTitle">
+        {{item.title}}
+      </view>
+    </view>
+  </view>
+  <view class="cu-tabbar-height"></view>

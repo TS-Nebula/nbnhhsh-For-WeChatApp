@@ -1,0 +1,35 @@
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>如何猜词？</view>
+  <view class='text-content'>
+    <view class='margin-bottom text-lg  text-grey'>1、人名</view>
+    <text class='margin-top-sm'>
+      大部分人名都是通过首拼来缩写的，如xz=肖战，wyb=王一博
+
+    </text>
+    <view class='margin-bottom text-lg  text-grey'>2、较常见的缩写词</view>
+    <text class='margin-top-sm'>
+      绝大部分缩写词也是通工像什么就用什么的或者首拼来缩写的，如：
+      u1s1=有一说一
+      tgl=太强了
+      gkd=搞快点
+    </text>
+    <view class='margin-bottom text-lg  text-grey'>3、谐音</view>
+    <text class='margin-top-sm'>
+      谐音也是一种常见的缩写词方法，如：
+      omg=oh my god  （这个词即是手写字母缩写又是谐音）
+      忘拿碗=wannaone
+      胡1day=胡一天
+      nct=内存条
+      winner=温拿
+      nu est=新东方
+      271=爱奇艺
+      sdfi=时代峰峻
+      anti=黑粉
+
+    </text>
+    <view class='margin-bottom text-lg  text-grey'>4、other</view>
+    <text class='margin-top-sm'>
+      剩余部分基本就是不规则的造词了，有些是半中文半英文，有些是完全和词语的意思不同，这些只能看用户对词语的理解了
+    </text>
+  </view>
+</view>

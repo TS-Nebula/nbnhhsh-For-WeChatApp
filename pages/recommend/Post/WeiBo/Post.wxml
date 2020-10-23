@@ -1,0 +1,44 @@
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>微博常见词</view>
+  <view class='text-content'>
+    <view class='margin-bottom text-lg  text-grey'>1、十大常见词</view>
+    <text class='margin-top-sm'>
+      ssfd=瑟瑟发抖
+      zqsg=真情实感
+      nsdd=你说得对
+      nbcs=nobody cares
+      emmm=我不知道该说啥
+      hhh=哈哈哈
+      ？？？=代表一切态度
+      tql=太强了
+      wsl=我死了
+      gkd=搞快点
+    </text>
+    <view class='margin-bottom text-lg  text-grey'>2、首字母大写类</view>
+    <text class='margin-top-sm'>
+      dpq=对不起
+      xxj=小学鸡 (一般指行为低龄)
+      nhjj=南韩姐姐
+      tcjj=天朝姐姐
+      xswl=笑死我了
+      xlx=小聋瞎（指又聋又瞎，毫无正确判断力）
+      lwjj=芦苇姐姐（指鹿晗粉丝）
+      xfxy=腥风血雨（一般指大型撕逼现场）
+      hyq=好友圈（一般指追星女孩聊八卦撕逼的绝佳场所）
+      zqsg=真情实感（指对偶像掏心掏肺真心实意）
+      bp=白嫖（指不管怎么样都不愿意为偶像花一分钱的粉丝）
+      nbcs=nobody cares（指没人关心）
+    </text>
+    <view class='margin-bottom text-lg  text-grey'>2、谐音替换类</view>
+    <text class='margin-top-sm'>
+      忘拿碗=wannaone
+      胡1day=胡一天
+      nct=内存条
+      winner=温拿
+      nu est=新东方
+      271=爱奇艺
+      sdfi=时代峰峻
+      anti=黑粉
+    </text>
+  </view>
+</view>

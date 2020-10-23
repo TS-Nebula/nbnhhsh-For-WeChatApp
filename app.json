@@ -1,7 +1,11 @@
 {
   "pages": [
+    "pages/recommend/recommend",
     "pages/index/index",
-    "pages/recommend/recommend"
+    "pages/recommend/Post/CJ/Post",
+    "pages/recommend/Post/WeiBo/Post",
+    "pages/recommend/Post/Chat/Post",
+    "pages/recommend/Post/How/Post"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,30 +19,26 @@
     "borderStyle": "black",
     "backgroundColor": "#f7f7fa",
     "list": [
-       {
-    "pagePath": "pages/index/index",
-    "text": "主页",
-    "iconPath": "/images/home1.png",
-    "selectedIconPath": "/images/home2.png"
-    },
-    {
-    "pagePath": "pages/recommend/recommend",
-    "text": "推荐",
-    "iconPath": "/images/menu1.png",
-    "selectedIconPath": "/images/menu2.png"
-    }
-     ]
-    },
-    "useExtendedLib": {
-      "kbone": true,
-      "weui": true
-    },
-  "usingComponents": {},
+      {
+        "pagePath": "pages/index/index",
+        "text": "搜索",
+        "iconPath": "/images/home1.png",
+        "selectedIconPath": "/images/home2.png"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐",
+        "iconPath": "/images/menu1.png",
+        "selectedIconPath": "/images/menu2.png"
+      }
+    ]
+  },
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
   "sitemapLocation": "sitemap.json"
-  
 }
-
-
-
-
-
