@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/recommend/recommend"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -8,5 +9,36 @@
     "navigationBarTitleText": "能不能好好说话?",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap20.json"
+  "tabBar": {
+    "color": "#7f8389",
+    "selectedColor": "#00a8f3",
+    "borderStyle": "black",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+       {
+    "pagePath": "pages/index/index",
+    "text": "主页",
+    "iconPath": "/images/home1.png",
+    "selectedIconPath": "/images/home2.png"
+    },
+    {
+    "pagePath": "pages/recommend/recommend",
+    "text": "推荐",
+    "iconPath": "/images/menu1.png",
+    "selectedIconPath": "/images/menu2.png"
+    }
+     ]
+    },
+    "useExtendedLib": {
+      "kbone": true,
+      "weui": true
+    },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+  
 }
+
+
+
+
+

@@ -1,9 +1,7 @@
 Page({
   data: {
     result:"暂无数据",
-
  },
-
   watchPassWord: function (event) {
     var requests =(event.detail.value);
     this.setData({
@@ -17,35 +15,22 @@ Page({
     })  
     let input = this.data.sercsData
     let _this = this
+    let url = 'http://127.0.0.1:5000/api/search/' + input
     wx.request({
-      url: 'https://nbnhhsh.fa-dream.top/api/nbnhhsh/guess',
-      method: 'POST',
+      url: url,
+      method: 'GET',
       header: {
         'content-type': 'application/x-www-form-urlencoded'
       },
-      data: {
-        text: input
-      },
       success(res) {
-        try{
-          console.log(res.data[0].trans[0])
-          let trans = res.data[0].trans
-          let words = ''
-          for (let i in trans){
-            console.log(i)
-            words += trans[i]+ " "
-          }
+          console.log(res.data)
           _this.setData({
-            result: words
+            result: res.data
           })
-        }catch (e) {
-          _this.setData({
-              result:"暂无数据"
-          })
-        }
 
         }
       
   })
   }
 })
+
