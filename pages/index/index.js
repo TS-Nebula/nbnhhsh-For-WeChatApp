@@ -15,7 +15,7 @@ Page({
     })  
     let input = this.data.sercsData
     let _this = this
-    let url = 'http://127.0.0.1:5000/api/search/' + input
+    let url = 'https://nbnhhsh.ts-nebula.cn/api/search/' + input
     wx.request({
       url: url,
       method: 'GET',
